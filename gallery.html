@@ -2,57 +2,148 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gallery | Snazzy Paws Grooming</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
-<body>
 
-<header>
-  <h1>Snazzy Paws Grooming</h1>
-  <nav aria-label="Main navigation">
-    <a href="index.html">Home</a>
-    <a href="services.html">Services</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="tip.html">Tips</a>
-    <a href="booking.html">Booking</a>
-    <a href="contact.html">Contact</a>
+<body class="w3-light-pink">
+
+<!-- ================= HEADER ================= -->
+<header class="w3-bar w3-orange w3-padding">
+  <span class="w3-bar-item w3-xlarge w3-text-white">
+    Snazzy Paws Grooming
+  </span>
+
+  <!-- Desktop / Tablet nav -->
+  <nav class="w3-right w3-hide-small">
+    <a href="index.html" class="w3-bar-item w3-button w3-text-white">Home</a>
+    <a href="services.html" class="w3-bar-item w3-button w3-text-white">Services</a>
+    <a href="gallery.html" class="w3-bar-item w3-button w3-text-white">Gallery</a>
+    <a href="tip.html" class="w3-bar-item w3-button w3-text-white">Tips</a>
+    <a href="booking.html" class="w3-bar-item w3-button w3-text-white">Booking</a>
+    <a href="contact.html" class="w3-bar-item w3-button w3-text-white">Contact</a>
+    <a href="privacy.html" class="w3-bar-item w3-button w3-text-white">Privacy</a>
+    <a href="staff-roster.html" class="w3-bar-item w3-button w3-text-white">Staff</a>
   </nav>
 </header>
 
-<main class="gallery-page">
+<!-- Mobile nav -->
+<nav class="w3-bar-block w3-orange w3-hide-medium w3-hide-large">
+  <a href="index.html" class="w3-bar-item w3-button w3-text-white">Home</a>
+  <a href="services.html" class="w3-bar-item w3-button w3-text-white">Services</a>
+  <a href="gallery.html" class="w3-bar-item w3-button w3-text-white">Gallery</a>
+  <a href="tip.html" class="w3-bar-item w3-button w3-text-white">Tips</a>
+  <a href="booking.html" class="w3-bar-item w3-button w3-text-white">Booking</a>
+  <a href="contact.html" class="w3-bar-item w3-button w3-text-white">Contact</a>
+  <a href="privacy.html" class="w3-bar-item w3-button w3-text-white">Privacy</a>
+  <a href="staff-roster.html" class="w3-bar-item w3-button w3-text-white">Staff</a>
+</nav>
 
-  <h2 class="page-title">Gallery</h2>
+<!-- ================= MAIN ================= -->
+<main class="w3-content w3-padding" style="max-width:1400px">
 
-  <div class="gallery-grid">
-    <img src="https://placehold.co/300x300" alt="Dog grooming example 1">
-    <img src="https://placehold.co/300x300" alt="Dog grooming example 2">
-    <img src="https://placehold.co/300x300" alt="Dog grooming example 3">
-    <img src="https://placehold.co/300x300" alt="Dog grooming example 4">
+  <h2 class="w3-center w3-margin-top">Gallery</h2>
+  <p class="w3-center w3-margin-bottom">
+    A glimpse of our happy clients and grooming results
+  </p>
 
-    <img src="https://placehold.co/300x300" alt="Dog grooming example 5">
-    <img src="https://placehold.co/300x300" alt="Dog grooming example 6">
-    <img src="https://placehold.co/300x300" alt="Dog grooming example 7">
-    <img src="https://placehold.co/300x300" alt="Dog grooming example 8">
+  <!-- GALLERY GRID -->
+  <section class="w3-row-padding">
 
-    <img src="https://placehold.co/300x300" alt="Dog grooming example 9">
-    <img src="https://placehold.co/300x300" alt="Dog grooming example 10">
-    <img src="https://placehold.co/300x300" alt="Dog grooming example 11">
-    <img src="https://placehold.co/300x300" alt="Dog grooming example 12">
+    <!-- Each image -->
+    <div class="w3-col s12 m6 l3 w3-margin-bottom">
+      <img src="https://placehold.co/300x300" alt="Dog grooming example 1"
+           class="w3-image w3-round w3-card">
+    </div>
 
-    <img src="https://placehold.co/300x300" alt="Dog grooming example 13">
-    <img src="https://placehold.co/300x300" alt="Dog grooming example 14">
-    <img src="https://placehold.co/300x300" alt="Dog grooming example 15">
-    <img src="https://placehold.co/300x300" alt="Dog grooming example 16">
-  </div>
+    <div class="w3-col s12 m6 l3 w3-margin-bottom">
+      <img src="https://placehold.co/300x300" alt="Dog grooming example 2"
+           class="w3-image w3-round w3-card">
+    </div>
+
+    <div class="w3-col s12 m6 l3 w3-margin-bottom">
+      <img src="https://placehold.co/300x300" alt="Dog grooming example 3"
+           class="w3-image w3-round w3-card">
+    </div>
+
+    <div class="w3-col s12 m6 l3 w3-margin-bottom">
+      <img src="https://placehold.co/300x300" alt="Dog grooming example 4"
+           class="w3-image w3-round w3-card">
+    </div>
+
+    <div class="w3-col s12 m6 l3 w3-margin-bottom">
+      <img src="https://placehold.co/300x300" alt="Dog grooming example 5"
+           class="w3-image w3-round w3-card">
+    </div>
+
+    <div class="w3-col s12 m6 l3 w3-margin-bottom">
+      <img src="https://placehold.co/300x300" alt="Dog grooming example 6"
+           class="w3-image w3-round w3-card">
+    </div>
+
+    <div class="w3-col s12 m6 l3 w3-margin-bottom">
+      <img src="https://placehold.co/300x300" alt="Dog grooming example 7"
+           class="w3-image w3-round w3-card">
+    </div>
+
+    <div class="w3-col s12 m6 l3 w3-margin-bottom">
+      <img src="https://placehold.co/300x300" alt="Dog grooming example 8"
+           class="w3-image w3-round w3-card">
+    </div>
+
+        <div class="w3-col s12 m6 l3 w3-margin-bottom">
+      <img src="https://placehold.co/300x300" alt="Dog grooming example 1"
+           class="w3-image w3-round w3-card">
+    </div>
+
+    <div class="w3-col s12 m6 l3 w3-margin-bottom">
+      <img src="https://placehold.co/300x300" alt="Dog grooming example 2"
+           class="w3-image w3-round w3-card">
+    </div>
+
+    <div class="w3-col s12 m6 l3 w3-margin-bottom">
+      <img src="https://placehold.co/300x300" alt="Dog grooming example 3"
+           class="w3-image w3-round w3-card">
+    </div>
+
+    <div class="w3-col s12 m6 l3 w3-margin-bottom">
+      <img src="https://placehold.co/300x300" alt="Dog grooming example 4"
+           class="w3-image w3-round w3-card">
+    </div>
+
+    <div class="w3-col s12 m6 l3 w3-margin-bottom">
+      <img src="https://placehold.co/300x300" alt="Dog grooming example 5"
+           class="w3-image w3-round w3-card">
+    </div>
+
+    <div class="w3-col s12 m6 l3 w3-margin-bottom">
+      <img src="https://placehold.co/300x300" alt="Dog grooming example 6"
+           class="w3-image w3-round w3-card">
+    </div>
+
+    <div class="w3-col s12 m6 l3 w3-margin-bottom">
+      <img src="https://placehold.co/300x300" alt="Dog grooming example 7"
+           class="w3-image w3-round w3-card">
+    </div>
+
+    <div class="w3-col s12 m6 l3 w3-margin-bottom">
+      <img src="https://placehold.co/300x300" alt="Dog grooming example 8"
+           class="w3-image w3-round w3-card">
+    </div>
+
+  </section>
 
 </main>
 
-<footer>
-  <p><strong>Opening Hours:</strong> Monday – Saturday, 9am – 5pm</p>
-  <p><strong>Address:</strong> 123 Grooming Street, Hamilton, NZ </p>
-  <p><strong>Phone:</strong> 021 123 4567 </p>
-  <p><strong>Email:</strong> info@snazzypawsgrooming.co.nz</p>
+<!-- ================= FOOTER ================= -->
+<footer class="w3-container w3-dark-grey w3-padding">
+  <div class="w3-row">
+    <div class="w3-col s12 m6 l3">Mon–Sat, 9am–5pm</div>
+    <div class="w3-col s12 m6 l3">123 Grooming Street, Hamilton</div>
+    <div class="w3-col s12 m6 l3">021 123 4567</div>
+    <div class="w3-col s12 m6 l3">info@snazzypawsgrooming.co.nz</div>
+  </div>
 </footer>
 
 </body>

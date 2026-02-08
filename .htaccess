@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Staff Only Area"
+AuthUserFile /full/server/path/.htpasswd
+Require valid-user

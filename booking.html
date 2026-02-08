@@ -2,124 +2,156 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Booking | Snazzy Paws Grooming</title>
-  <link rel="stylesheet" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Snazzy Paws Grooming</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
-<body>
 
-<header>
-  <h1>Snazzy Paws Grooming</h1>
+<body class="w3-light-pink">
 
-  <nav aria-label="Main navigation">
-    <a href="index.html">Home</a>
-    <a href="services.html">Services</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="tip.html">Tips</a>
-    <a href="booking.html">Booking</a>
-    <a href="contact.html">Contact</a>
+<!-- ================= HEADER ================= -->
+<header class="w3-bar w3-orange w3-padding">
+  <span class="w3-bar-item w3-xlarge w3-text-white">
+    Snazzy Paws Grooming
+  </span>
+
+  <!-- Desktop / Tablet nav -->
+  <nav class="w3-right w3-hide-small">
+    <a href="index.html" class="w3-bar-item w3-button w3-text-white">Home</a>
+    <a href="services.html" class="w3-bar-item w3-button w3-text-white">Services</a>
+    <a href="gallery.html" class="w3-bar-item w3-button w3-text-white">Gallery</a>
+    <a href="tip.html" class="w3-bar-item w3-button w3-text-white">Tips</a>
+    <a href="booking.html" class="w3-bar-item w3-button w3-text-white">Booking</a>
+    <a href="contact.html" class="w3-bar-item w3-button w3-text-white">Contact</a>
+    <a href="privacy.html" class="w3-bar-item w3-button w3-text-white">Privacy</a>
+    <a href="staff-roster.html" class="w3-bar-item w3-button w3-text-white">Staff</a>
   </nav>
 </header>
 
-<main class="booking-page">
+<!-- Mobile nav (stacked) -->
+<nav class="w3-bar-block w3-orange w3-hide-medium w3-hide-large">
+  <a href="index.html" class="w3-bar-item w3-button w3-text-white">Home</a>
+  <a href="services.html" class="w3-bar-item w3-button w3-text-white">Services</a>
+  <a href="gallery.html" class="w3-bar-item w3-button w3-text-white">Gallery</a>
+  <a href="tip.html" class="w3-bar-item w3-button w3-text-white">Tips</a>
+  <a href="booking.html" class="w3-bar-item w3-button w3-text-white">Booking</a>
+  <a href="contact.html" class="w3-bar-item w3-button w3-text-white">Contact</a>
+  <a href="privacy.html" class="w3-bar-item w3-button w3-text-white">Privacy</a>
+  <a href="staff-roster.html" class="w3-bar-item w3-button w3-text-white">Staff</a>
+</nav>
 
-  <h2 class="page-title">Booking</h2>
-  <p class="opening-hours">Opening hours: Mon – Sat, 9am – 5pm</p>
+<!-- ================= MAIN ================= -->
+<main class="w3-content w3-padding" style="max-width:1200px">
 
-  <form class="booking-form">
+  <h2 class="w3-center w3-margin-top">Booking</h2>
+  <p class="w3-center w3-margin-bottom">
+    Opening hours: Monday – Saturday, 9am – 5pm
+  </p>
 
-    <!-- Row 1 -->
-    <div class="form-group">
-      <label for="owner">Owner:</label>
-      <input type="text" id="owner" name="owner">
+  <!-- BOOKING FORM -->
+  <form class="w3-card w3-padding w3-white">
+
+    <div class="w3-row-padding">
+
+      <!-- OWNER INFO -->
+      <div class="w3-col s12 m4">
+        <label>Owner</label>
+        <input class="w3-input w3-border" type="text">
+      </div>
+
+      <div class="w3-col s12 m4">
+        <label>Phone</label>
+        <input class="w3-input w3-border" type="tel">
+      </div>
+
+      <div class="w3-col s12 m4">
+        <label>Email</label>
+        <input class="w3-input w3-border" type="email">
+      </div>
+
+      <!-- PET INFO -->
+      <div class="w3-col s12 m4">
+        <label>Pet Name</label>
+        <input class="w3-input w3-border" type="text">
+      </div>
+
+      <div class="w3-col s12 m4">
+        <label>Pet Age</label>
+        <input class="w3-input w3-border" type="number">
+      </div>
+
+      <div class="w3-col s12 m4">
+        <label>Breed (optional)</label>
+        <input class="w3-input w3-border" type="text">
+      </div>
+
+      <!-- SERVICE INFO -->
+      <div class="w3-col s12 m4">
+        <label>Service</label>
+        <select class="w3-select w3-border">
+          <option>Bath and Brush</option>
+          <option>Haircut</option>
+          <option>Full Grooming</option>
+        </select>
+      </div>
+
+      <div class="w3-col s12 m4">
+        <label>Date / Time</label>
+        <input class="w3-input w3-border" type="datetime-local">
+      </div>
+
+      <div class="w3-col s12 m4">
+        <label>Staff (optional)</label>
+        <select class="w3-select w3-border">
+          <option>No preference</option>
+          <option>Staff A</option>
+          <option>Staff B</option>
+        </select>
+      </div>
+
+      <!-- REFERRAL -->
+      <div class="w3-col s12 m4">
+        <label>Gift Voucher</label>
+        <input class="w3-input w3-border" type="text">
+      </div>
+
+      <div class="w3-col s12 m4">
+        <label>Vet Clinic ID</label>
+        <input class="w3-input w3-border" type="text">
+      </div>
+
+      <div class="w3-col s12 m4">
+        <label>Vet Case Number</label>
+        <input class="w3-input w3-border" type="text">
+      </div>
+
+      <!-- NOTES -->
+      <div class="w3-col s12">
+        <label>Note (optional)</label>
+        <textarea class="w3-input w3-border"></textarea>
+      </div>
+
     </div>
 
-    <div class="form-group">
-      <label for="phone">Phone:</label>
-      <input type="tel" id="phone">
-    </div>
-
-    <div class="form-group">
-      <label for="email">Email:</label>
-      <input type="email" id="email">
-    </div>
-
-    <!-- Row 2 -->
-    <div class="form-group">
-      <label for="petname">Pet Name:</label>
-      <input type="text" id="petname" name="petname">
-    </div>
-
-    <div class="form-group">
-      <label for="age">Pet Age:</label>
-      <input type="number" id="age">
-    </div>
-
-    <div class="form-group">
-      <label for="breed">Breed (optional):</label>
-      <input type="text" id="breed">
-    </div>
-
-    <!-- Row 3 -->
-    <div class="form-group">
-      <label for="service">Service:</label>
-      <select id="service" name="service">
-        <option>Bath and Brush</option>
-        <option>Haircut</option>
-        <option>Full Grooming</option>
-      </select>
-    </div>
-
-    <div class="form-group">
-      <label for="datetime">Date / Time:</label>
-      <input type="datetime-local" id="datetime">
-    </div>
-
-    <div class="form-group">
-      <label for="staff">Staff (optional):</label>
-      <select id="staff">
-        <option>No preference</option>
-        <option>Staff A</option>
-        <option>Staff B</option>
-      </select>
-    </div>
-
-    <!-- Row 3 -->
-
-    <div class="form-group">
-      <label for="voucher">Gift voucher:</label>
-      <input type="text" id="voucher">
-    </div>
-
-    <div class="form-group">
-      <label for="vetid">Vet clinic ID (referral):</label>
-      <input type="text" id="vetid">
-    </div>
-
-    <div class="form-group">
-      <label for="vetcase">Vet case number (referral):</label>
-      <input type="text" id="vetcase">
-    </div>
-
-    <div class="form-group">
-      <label for="note">Note (optional):</label>
-      <textarea id="note"></textarea>
+    <!-- SUBMIT -->
+    <div class="w3-center w3-margin-top">
+      <button class="w3-button w3-orange w3-large w3-round" type="submit">
+        Submit Booking
+      </button>
     </div>
 
   </form>
-  
-    <!-- Submit -->
-    <div class="form-submit">
-      <button type="submit">Submit</button>
-    </div>
 
 </main>
 
-<footer>
-  <p><strong>Opening Hours:</strong> Monday – Saturday, 9am – 5pm</p>
-  <p><strong>Address:</strong> 123 Grooming Street, Hamilton, NZ </p>
-  <p><strong>Phone:</strong> 021 123 4567 </p>
-  <p><strong>Email:</strong> info@snazzypawsgrooming.co.nz</p>
+<!-- ================= FOOTER ================= -->
+<footer class="w3-container w3-dark-grey w3-padding">
+  <div class="w3-row">
+    <div class="w3-col s12 m6 l3">Mon–Sat, 9am–5pm</div>
+    <div class="w3-col s12 m6 l3">123 Grooming Street, Hamilton</div>
+    <div class="w3-col s12 m6 l3">021 123 4567</div>
+    <div class="w3-col s12 m6 l3">info@snazzypawsgrooming.co.nz</div>
+  </div>
 </footer>
 
 </body>

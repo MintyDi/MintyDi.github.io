@@ -4,121 +4,152 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Snazzy Paws Grooming</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 
-<body>
-<header>
-  <h1>Snazzy Paws Grooming</h1>
-  <nav aria-label="Main navigation">
-    <a href="index.html">Home</a>
-    <a href="services.html">Services</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="tip.html">Tips</a>
-    <a href="booking.html">Booking</a>
-    <a href="contact.html">Contact</a>
+<body class="w3-light-pink">
+
+<!-- ================= HEADER ================= -->
+<header class="w3-bar w3-orange w3-padding">
+  <span class="w3-bar-item w3-xlarge w3-text-white">
+    Snazzy Paws Grooming
+  </span>
+
+  <!-- Desktop / Tablet navigation -->
+  <nav class="w3-right w3-hide-small">
+    <a href="index.html" class="w3-bar-item w3-button w3-text-white">Home</a>
+    <a href="services.html" class="w3-bar-item w3-button w3-text-white">Services</a>
+    <a href="gallery.html" class="w3-bar-item w3-button w3-text-white">Gallery</a>
+    <a href="tip.html" class="w3-bar-item w3-button w3-text-white">Tips</a>
+    <a href="booking.html" class="w3-bar-item w3-button w3-text-white">Booking</a>
+    <a href="contact.html" class="w3-bar-item w3-button w3-text-white">Contact</a>
+    <a href="privacy.html" class="w3-bar-item w3-button w3-text-white">Privacy</a>
+    <a href="staff-roster.html" class="w3-bar-item w3-button w3-text-white">Staff</a>
   </nav>
 </header>
 
-<main>
-  <!-- Welcome section -->
-  <div class="welcome">
+<!-- Mobile navigation (stacked) -->
+<nav class="w3-bar-block w3-orange w3-hide-medium w3-hide-large">
+  <a href="index.html" class="w3-bar-item w3-button w3-text-white">Home</a>
+  <a href="services.html" class="w3-bar-item w3-button w3-text-white">Services</a>
+  <a href="gallery.html" class="w3-bar-item w3-button w3-text-white">Gallery</a>
+  <a href="tip.html" class="w3-bar-item w3-button w3-text-white">Tips</a>
+  <a href="booking.html" class="w3-bar-item w3-button w3-text-white">Booking</a>
+  <a href="contact.html" class="w3-bar-item w3-button w3-text-white">Contact</a>
+  <a href="privacy.html" class="w3-bar-item w3-button w3-text-white">Privacy</a>
+  <a href="staff-roster.html" class="w3-bar-item w3-button w3-text-white">Staff</a>
+</nav>
+
+<!-- ================= HERO (FULL WIDTH) ================= -->
+<section>
+  <img src="https://placehold.co/1920x600"
+       alt="Dog being groomed"
+       class="w3-image">
+</section>
+
+<!-- ================= MAIN CONTENT ================= -->
+<main class="w3-content w3-padding" style="max-width:1200px">
+
+  <!-- WELCOME -->
+  <section class="w3-center w3-padding-32">
     <h2>Welcome to Snazzy Paws</h2>
-    <p>Snazzy Paws Grooming was created by a dog-loving couple who believe every pet deserves the best care. We proudly offer high-quality grooming services to local dogs and their owners across the wider community.</p>
-    <a href="booking.html"><button>Book Now</button></a>
-  </div>
-
-  <!-- Hero image -->
-  <div class="hero">
-    <img src="https://placehold.co/1920x600"
-         alt="Dog being professionally groomed">
-  </div>
-
-  <!-- Short intro -->
-  <div class="intro">
-    <h3>Professional Dog Grooming</h3>
-    <p>
-      We offer caring, high-quality grooming services for dogs of all breeds and sizes.
+    <p class="w3-large">
+      Snazzy Paws Grooming was created by a dog-loving couple who believe every pet deserves the best care.
     </p>
-  </div>
+    <a href="booking.html" class="w3-button w3-orange w3-large w3-round">
+      Book Now
+    </a>
+  </section>
 
-  <!-- Staff images -->
-  <div class="staff">
-    <img src="https://placehold.co/300x300" alt="Groomer 1">
-    <img src="https://placehold.co/300x300" alt="Groomer 2">
-    <img src="https://placehold.co/300x300" alt="Groomer 3">
-    <img src="https://placehold.co/300x300" alt="Groomer 4">
-  </div>
+  <!-- INTRO -->
+  <section class="w3-center w3-padding-32">
+    <h3>Professional Dog Grooming</h3>
+    <p>We offer caring, high-quality grooming services for dogs of all breeds and sizes.</p>
+  </section>
 
-  <!-- Quick links -->
-  <div class="quick-links">
-    <<button>Services</button>
-    <button>Gallery</button>
-    <button>Contact</button>
-  </div>
+  <!-- STAFF -->
+  <section class="w3-row-padding w3-margin-bottom">
+    <div class="w3-col s6 m3">
+      <img src="https://placehold.co/300x300" class="w3-image w3-round">
+    </div>
+    <div class="w3-col s6 m3">
+      <img src="https://placehold.co/300x300" class="w3-image w3-round">
+    </div>
+    <div class="w3-col s6 m3">
+      <img src="https://placehold.co/300x300" class="w3-image w3-round">
+    </div>
+    <div class="w3-col s6 m3">
+      <img src="https://placehold.co/300x300" class="w3-image w3-round">
+    </div>
+  </section>
 
-  <!-- Enquiry form -->
-<div class="home-bottom">
+  <!-- QUICK LINKS -->
+  <section class="w3-row-padding w3-margin-bottom">
+    <div class="w3-col s12 m4">
+      <button class="w3-button w3-orange w3-block">Services</button>
+    </div>
+    <div class="w3-col s12 m4">
+      <button class="w3-button w3-orange w3-block">Gallery</button>
+    </div>
+    <div class="w3-col s12 m4">
+      <button class="w3-button w3-orange w3-block">Contact</button>
+    </div>
+  </section>
 
-  <!-- Enquiry Section -->
-  <div class="enquiry">
-    <h2>Enquiry</h2>
+  <!-- ENQUIRY + REVIEWS -->
+  <section class="w3-row-padding w3-margin-bottom">
 
-    <form>
-      <label for="name">Name:</label>
-      <input type="text" id="name">
+    <!-- ENQUIRY -->
+    <div class="w3-col s12 m6">
+      <div class="w3-card w3-padding">
+        <h2>Enquiry</h2>
+        <form class="w3-container">
+          <label>Name</label>
+          <input class="w3-input w3-border w3-margin-bottom" type="text">
 
-      <label for="email">Email:</label>
-      <input type="email" id="email">
+          <label>Email</label>
+          <input class="w3-input w3-border w3-margin-bottom" type="email">
 
-      <label for="message">Message:</label>
-      <textarea id="message"></textarea>
+          <label>Message</label>
+          <textarea class="w3-input w3-border w3-margin-bottom"></textarea>
 
-      <button type="submit">Submit</button>
-    </form>
-  </div>
-
-  <!-- Reviews Section -->
-  <div class="reviews">
-    <h2>Customer Reviews</h2>
-
-    <div class="review">
-      <p>
-        “Amazing service! My dog came home clean, happy, and smelling great.
-        The staff were friendly and very professional.” <span>– Sarah M.</span>
-      </p>
-    
+          <button class="w3-button w3-orange">Submit</button>
+        </form>
+      </div>
     </div>
 
-    <div class="review">
-      <p>
-        “Snazzy Paws Grooming is the best grooming salon in Hamilton.
-        They really care about the dogs and take their time.” <span>– James T.</span>
-      </p> 
-      
+    <!-- REVIEWS -->
+    <div class="w3-col s12 m6">
+      <div class="w3-card w3-padding w3-light-grey">
+        <h2>Customer Reviews</h2>
+
+        <div class="w3-panel w3-border-left w3-border-orange">
+          “AAmazing service! My dog came home clean, happy, and smelling great. The staff were friendly and very professional” <strong>– Sarah M.</strong>
+        </div>
+
+        <div class="w3-panel w3-border-left w3-border-orange">
+          “Snazzy Paws Grooming is the best grooming salon in Hamilton. They really care about the dogs and take their time.” <strong>– James T.</strong>
+        </div>
+
+        <div class="w3-panel w3-border-left w3-border-orange">
+          “Highly recommend! Easy booking, great prices, and my puppy loved the experience.” <strong>– Emily R.</strong>
+        </div>
+      </div>
     </div>
 
-    <div class="review">
-      <p>
-        “Highly recommend! Easy booking, great prices, and my puppy loved
-        the experience.” <span>– Emily R.</span>
-      </p>
-      
-    </div>
-
-  </div>
-
-</div>
+  </section>
 
 </main>
 
-<footer>
-  <p><strong>Opening Hours:</strong> Monday – Saturday, 9am – 5pm</p>
-  <p><strong>Address:</strong> 123 Grooming Street, Hamilton, NZ </p>
-  <p><strong>Phone:</strong> 021 123 4567 </p>
-  <p><strong>Email:</strong> info@snazzypawsgrooming.co.nz</p>
+<!-- ================= FOOTER ================= -->
+<footer class="w3-container w3-dark-grey w3-padding">
+  <div class="w3-row">
+    <div class="w3-col s12 m6 l3">Mon–Sat, 9am–5pm</div>
+    <div class="w3-col s12 m6 l3">123 Grooming Street, Hamilton</div>
+    <div class="w3-col s12 m6 l3">021 123 4567</div>
+    <div class="w3-col s12 m6 l3">info@snazzypawsgrooming.co.nz</div>
+  </div>
 </footer>
 
 </body>
 </html>
-
