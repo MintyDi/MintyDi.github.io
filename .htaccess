@@ -1,9 +1,7 @@
+# Apache server only – not supported on GitHub Pages
 <Files "staff-roster.html">
   AuthType Basic
   AuthName "Snazzy Paws Staff Area"
-  AuthUserFile /home/yourusername/.htpasswd
+  AuthUserFile /home/username/.htpasswd
   Require valid-user
 </Files>
-
-# Bonus: Custom 404 Error Page
-ErrorDocument 404 /404.html
